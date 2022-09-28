@@ -1,0 +1,289 @@
+body {
+    background-color: rgb(255, 242, 226);
+}
+
+.flexbox-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+
+
+}
+
+#top-puppies h2 {
+    margin: 0;
+}
+
+.flexbox-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3px;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    display: flexbox;
+    flex-direction: column;
+    min-width: 100vh;
+    justify-content: flex-start;
+
+}
+
+h1 {
+    text-align: left;
+    text-shadow: 3px;
+
+
+}
+
+h2 {
+
+    color: black;
+}
+
+h3 {
+    color: lime;
+
+}
+nav {
+        text-align: right;
+        font-size: medium;
+        padding: 20px;
+        display: flex;
+
+}
+
+    .nav-1 {
+        background-color: rgb(159, 252, 252);
+        color: darkblue;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .right-nav {
+        word-wrap: normal;
+        display: inline-block;
+    }
+
+    ul {
+        list-style: none;
+        display: inline-flex;
+
+    }
+
+    li {
+        padding: 0 20px;
+    }
+
+    .left-about {
+        text-align: right;
+        border-right: 3px solid black;
+        padding-right: 20px;
+    }
+
+    #about {
+        display: flex;
+        padding: 15px;
+        gap: 40px;
+    }
+
+    main {
+        padding-right: 60px;
+        padding-left: 110px;
+    }
+
+    #work {
+        display: flex;
+        padding: 15px;
+        gap: 40px;
+    }
+
+
+    .work-left {
+        text-align: left;
+        border-right: 3px solid black;
+        padding-right: 20px;
+
+    }
+
+    .nav-2 {
+        background-color: rgb(159, 252, 252);
+        color: darkblue;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .nav-2-right {
+        word-wrap: normal;
+        text-align: right;
+        padding-right: 30px;
+    
+
+    }
+
+    .nav-2-left {
+        text-align: left;
+        padding-left: 45px;
+    }
+
+    .photo-1 {
+        height: 200px;
+        width: 100%;
+        margin-bottom: 10px;
+        background-image: url(https://thehappypuppysite.com/wp-content/uploads/2018/12/German-Shepherd-Dog-Breed-Information-Center-HP-long.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        right: 15px;
+    }
+
+    .photo-2 {
+        height: fit-content;
+        width: fit-content;
+        margin: 10px;
+        background-image: url(https://miro.medium.com/max/800/0*LFS-oAro8b1qmeH9.jpg);
+        background-size: cover;
+
+    }
+
+    .photo-3 {
+        height: fit-content;
+        width: fit-content;
+        margin: 10px;
+        background-image: url(https://www.kraftwerkk9.com/wp-content/uploads/2021/07/quinn1-489x700.jpg);
+    }
+
+    .photo-4 {
+        height: fit-content;
+        width: fit-content;
+        margin: 10px;
+        background-image: url(https://www.akc.org/wp-content/uploads/2020/06/German-Shepherd-Dog-puppies-running-and-playing-outdoors.20200421185413924-500x486.jpg);
+    }
+
+    .photo-5 {
+        height: fit-content;
+        width: fit-content;
+        margin: 10px;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOk--fsysEfpePtJJ3Skw7gNL3LEABuJ20ww&usqp=CAU);
+    }
+
+    .photo-6 {
+        height: fit-content;
+        width: fit-content;
+        margin: 10px;
+        background-image: url();
+    }
+
+    .work-right {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .main-work {
+        background-image: url(https://www.surrey.ac.uk/sites/default/files/styles/image_gallery/public/2020-10/Main%20GettyImages-1125637280.jpg?itok=pk1vMblH);
+        flex-grow: 2;
+        flex-basis: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        position: relative;
+    }
+    
+    .other-work {
+        background-image: url(https://static.nationalgeographic.co.uk/files/styles/image_3200/public/01-chocolate-lab-nationalgeographic_1154144.jpg?w=1600&h=1067);
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 49%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 180px;
+        position: relative;
+    }
+
+    .other-work-1 {
+        background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pit-bull-puppy-royalty-free-image-1599741486.jpg);
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 49%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 180px;
+        position: relative;
+    }
+    .other-work-2 {
+        background-image: url(https://image.petmd.com/files/2022-06/Australian-Shepherd.jpg);
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 49%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 180px;
+        position: relative;
+    }
+    .other-work-3 {
+        background-image: url(https://www.akc.org/wp-content/uploads/2017/11/Pembroke-Welsh-Corgi-puppy.jpg);
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 49%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 180px;
+        position: relative;
+    }
+
+    .work-right h3 {
+        margin: 0;
+    }
+
+    .work-right div {
+        background-color: black;
+    }
+
+    .color-layer {
+        background: black;
+        opacity: 40%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .color-layer:hover {
+        opacity: 0;
+    }
+
+    .nav-2 {
+        display: flex;
+    }
+
+
+    @media(max-width: 1024px) {
+        #about, #work, .nav-1, .nav-2 {
+            flex-direction: column;
+        }
+
+        .nav-1, .nav-2 {
+            align-items: center;
+        }
+        
+        .left-about, .work-left {
+            border-right: none;
+            border-bottom: 3px solid black;
+            text-align: left;
+        }
+    }
