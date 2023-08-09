@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <title>Sean's Portfolio</title>
+    </head>
+
+    <body>
+
+        <div class="intro" id="home">
+
+            <div class="intro-top">
+                <div class="intro-para">
+                    Hi, my name's Sean and I'm a front-end web developer. Click below to see more about me.
+                </div>
+
+                <div class="top-nav">
+                    <a class="top-button" href="#about">About</a>
+                    <a class="top-button" href="#placeholder">Portfolio</a>
+                    <a class="top-button" href="#contact">Contact</a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="nav-bar">
+            <a class="nav-bar-a" id="home-tab" href="#home">Home</a>
+            <a class="nav-bar-a" id="about-section" href="#about">About</a>
+            <a class="nav-bar-a" id="portfolio-section" href="#portfolio">Portfolio</a>
+            <a class="nav-bar-a" id="contact-section" href="#contact">Contact</a>
+            <a id="nav-bar-b" class="nav-bar-b" href="https://github.com/phillipanthony11" target="_blank">
+                <img class="git-logo" src="./assets/images/github-logo.svg" alt="github cat logo" />
+            </a>
+            <a id="nav-bar-c" class="nav-bar-c" href="https://linkedin.com/in/sean-anthony-556334265" target="_blank">
+                <img class="link-logo" src="./assets/images/linkedin-logo.svg" alt="linkedin logo" />
+            </a>
+            <a id="nav-bar-d" class="nav-bar-d" target="_blank" href="./assets/pdf/resume.pdf"
+                download="download">Resume</a>
+        </div>
+
+        <div class="about" id="about">
+            <h3 class="about-word">About</h3>
+            <div class="bio">
+                <img class="bio-image" src="./assets/images/portfolio.jpeg" alt="bio pic">
+
+                <div class="bio-para-section">
+                    <h4 class="bio-word">Bio</h4>
+
+                    <div>
+                        <p class="bio-para">I'm a certified front-end developer with more than 17 years in the
+                            service
+                            industry looking to expand my knowledge and career possibilites. My other interests include
+                            writing, boxing, gardening, trail running and raising animals as well as my children. I am
+                            excited to start a new challenge and feel extremely durable and stable, hopefully not
+                            delusionally.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="programming-skills">
+                <h4 class="programming-skills-word">Programming Skills</h4>
+                <div class="programming-images">
+                    <div class="programming-skill">
+                        <img class="html-icon" src="./assets/images/html-logo.svg" alt="html logo" />
+                        <p>HTML</p>
+                    </div>
+                    <div class="programming-skill">
+                        <img class="css-icon" src="./assets/images/css-logo.svg" alt="css logo" />
+                        <p>CSS</p>
+                    </div>
+                    <div class="programming-skill">
+                        <img class="javascript-icon" src="./assets/images/javascript-logo.svg" alt="javascript logo" />
+                        <p>JavaScript</p>
+                    </div>
+
+                    <div class="programming-skill">
+                        <img class="reactjs-icon" src="./assets/images/react-logo.png" alt="react logo" />
+                        <p>React.js</p>
+                    </div>
+                    <div class="programming-skill">
+                        <img class="nodejs-icon" src="./assets/images/nodejs-logo.svg" alt="nodejs logo" />
+                        <p>Node.js</p>
+                    </div>
+                </div>
+
+                <p class="skills-para">I also have experience with Express.js, MySQL, MongoDB, Firebase, jQuery,
+                    Firebase, Next.js, multiple CSS Frameworks, Tailwind CSS, Bootstrap, Material UI,
+                    Materialize and more ,but am always looking forward to learning more.</p>
+            </div>
+        </div>
+
+        <div class="portfolio" id="portfolio">
+            <p id="placeholder"></p>
+            <h3 class="portfolio-word">Portfolio</h3>
+            <div class="projects">
+                <div class="project-container-top">
+
+                    <!-- <div class="project">
+                        <div class="tooltip">
+                            <p class="project-titles">Suya, Project 1</p>
+                            <img src="./assets/images/suya-card.png" loading="lazy"
+                                alt="food search app relative to a region or culture" id="suya-modal"
+                                class="cardImageSuya" data-name="1" onclick="openModalOne();currentSlideOne(1)">
+
+                            <span class="tooltiptext">Want to see more from this project?</span>
+                        </div>
+
+
+                    </div>
+                    <div id="modal1" class="modal">
+
+                        <div class="modal-content">
+                            <span class="close cursor" onclick="closeModalOne()">&times;</span>
+
+                            <div class="mySlides1">
+                                <div class="numbertext">1 / 4</div>
+                                <img class="modal-project-screenshots" src="./assets/images/suya-screenshot.png">
+                            </div>
+
+                            <div class="mySlides1">
+                                <div class="numbertext">2 / 4</div>
+                                <img class="modal-project-screenshots" src="./assets/images/suya-one.png">
+                            </div>
+
+                            <div class="mySlides1">
+                                <div class="numbertext">3 / 4</div>
+                                <img class="modal-project-screenshots" src="./assets/images/suya-two.png">
+                            </div>
+
+                            <div class="mySlides1">
+                                <div class="numbertext">4 / 4</div>
+                                <img class="modal-project-screenshots" src="./assets/images/suya-three.png">
+                            </div>
+
+                            <a class="prev" onclick="plusSlidesOne(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlidesOne(1)">&#10095;</a>
+
+                            <div class="column">
+                                <img class="demo1 cursor" src="./assets/images/suya-screenshot.png"
+                                    onclick="currentSlideOne(1)" alt="Some bullshit">
+
+
+                                <img class="demo1 cursor" src="./assets/images/suya-one.png"
+                                    onclick="currentSlideOne(2)" alt="More shit">
+
+                                <img class="demo1 cursor" src="./assets/images/suya-two.png"
+                                    onclick="currentSlideOne(3)" alt="I am the walrus">
+
+                                <img class="demo1 cursor" src="./assets/images/suya-three.png"
+                                    onclick="currentSlideOne(4)" alt="Pedros salty shriveled balls">
+                            </div>
+                            <div class="modal-text-container">
+
+                                <div class="caption-container">
+                                    <p class="caption1">
+                                    <h1>Suya a food search app</h1>
+                                    <p>This was the first group project that I was a part of in the fullstack bootcamp.
+                                        I
+                                        did a bit of everything on this project, lots of the design, functionality and
+                                        backend. Suya was pretty much a two person project, we lost a partner who left
+                                        the
+                                        program on the first day of the project, another partner wasn't a part of the
+                                        development. That being said me and my remaining partner were happy with what we
+                                        were able to pull off.</p>
+                                    </p>
+                                </div>
+                                <div class="role-links">
+                                    <h3>Role</h3>
+                                    <a class="project-part">Front-end design, javascript and API application</a>
+                                    <h3>Links</h3>
+                                    <a class="modal-links" href="https://bmckenzie88.github.io/suya/"
+                                        target="_blank">Deployed
+                                        link</a>
+                                    <br>
+                                    <a class="modal-links" href="https://github.com/bmckenzie88/suya"
+                                        target="_blank">Github
+                                        Repo</a>
+                                </div>
+                                <div class="project-tools">
+                                    <h3>Tools/Languages</h3>
+                                    <li>JavaScript</li>
+                                    <li> Materialize</li>
+                                    <li> CSS</li>
+                                    <li> HTML</li>
+                                    <li> Moment Js API</li>
+                                    <li>Google Maps API</li>
+
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div> -->
+
+
+                    <div class="project">
+                        <div class="tooltip">
+                            <p class="project-titles">Renegade Art, Project 2</p>
+                            <img src="./assets/images/renegade-art-card.png" alt="art contributor and viewer site"
+                                class="cardImage" data-name="2" onclick="openModalTwo();currentSlideTwo(1)">
+                            <span class="tooltiptext">Want to see more from this project?</span>
+                        </div>
+
+
+
+                    </div>
+                    <div id="modal2" class="modal">
+
+                        <div class="modal-content">
+                            <span class="close cursor" onclick="closeModalTwo()">&times;</span>
+
+                            <div class="mySlides2">
+                                <div class="numbertext">1 / 4</div>
+                                <img class="modal-project-screenshots"
+                                    src="./assets/images/renegade-art-screenshot.png">
+                            </div>
+
+                            <div class="mySlides2">
+                                <div class="numbertext">2 / 4</div>
+                                <img class="modal-project-screenshots" src="./assets/images/renegade-art-search.png">
+                            </div>
+
+                            <div class="mySlides2">
+                                <div class="numbertext">3 / 4</div>
+                                <img class="modal-project-screenshots" src="./assets/images/renegade-art-add.png">
+                            </div>
+
+                            <div class="mySlides2">
+                                <div class="numbertext">4 / 4</div>
+                                <img class="modal-project-screenshots" src="./assets/images/renegade-art-login.png">
+                            </div>
+
+                            <a class="prev" onclick="plusSlidesTwo(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlidesTwo(1)">&#10095;</a>
+
+                            <div class="column">
+                                <img class="demo2 cursor" src="./assets/images/renegade-art-screenshot.png"
+                                    onclick="currentSlideTwo(1)" alt="Some bullshit">
+
+                                <img class="demo2 cursor" src="./assets/images/renegade-art-search.png"
+                                    onclick="currentSlideTwo(2)" alt="More shit">
+
+                                <img class="demo2 cursor" src="./assets/images/renegade-art-add.png"
+                                    onclick="currentSlideTwo(3)" alt="I am the walrus">
+
+                                <img class="demo2 cursor" src="./assets/images/renegade-art-login.png"
+                                    onclick="currentSlideTwo(4)" alt="Pedros salty shriveled balls">
+                            </div>
+                            <div class="modal-text-container">
+
+                                <div class="caption-container">
+                                    <p class="caption2">
+                                    <h1>Renegade Art, community art app</h1>
+                                    <p>On this project I was primarly doing front-end design. It was a complete four
+                                        person
+                                        team
+                                        with each of us taking a specific portion of the work, while the team leader
+                                        "Victor
+                                        Korn" and our github manager "Silvia Zhao" would check up on our progress and
+                                        coordinate
+                                        tying in all the working parts. The project moved very smoothly and we were
+                                        ahead of
+                                        the
+                                        deadline and able to add final touches near the end. For my work I used
+                                        Handlebars
+                                        and
+                                        Tailwind CSS. </p>
+
+                                    </p>
+                                </div>
+                                <div class="role-links">
+                                    <h3>Role</h3>
+                                    <a class="project-part">Front-end design and styling</a>
+                                    <h3>Links</h3>
+                                    <a class="modal-links" href="https://renegadeart-team8.herokuapp.com/"
+                                        target="_blank">Deployed
+                                        link</a>
+                                    <br>
+                                    <a class="modal-links" href="https://github.com/vicdotexe/project2-team8"
+                                        target="_blank">Github
+                                        Repo</a>
+                                </div>
+                                <div class="project-tools">
+                                    <h3>Tools/Languages</h3>
+                                    <li>JavaScript</li>
+                                    <li> Handlebars</li>
+                                    <li> CSS</li>
+                                    <li> Tailwind</li>
+                                    <li> Node/Express</li>
+                                    <li> HTML</li>
+                                    <li> Cloudinary</li>
+                                    <li> MYSQL</li>
+                                    <li> Sequalize</li>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                    <div class="project">
+                        <div class="tooltip">
+                            <p class="project-titles">Instagram Portfolio Clone </p>
+                            <img src="./assets/images/insta-port-card.png" alt="instagram portfolio clone"
+                                class="cardImageInsta" data-name="2" onclick="openModalThree();currentSlideThree(1)">
+                            <span class="tooltiptext">Want to see more from this project?</span>
+                        </div>
+
+
+
+                    </div>
+                    <div id="modal3" class="modal">
+
+                        <div class="modal-content">
+                            <span class="close cursor" onclick="closeModalThree()">&times;</span>
+
+                            <div class="mySlides3">
+                                <div class="numbertext">1 / 4</div>
+                                <img class="modal-project-screenshots" src="./assets/images/insta-port-card.png">
+                            </div>
+
+                            <div class="mySlides3">
+                                <div class="numbertext">2 / 4</div>
+                                <img class="modal-project-screenshots" src="./assets/images/instagram-port-sign-in.png">
+                            </div>
+
+                            <div class="mySlides3">
+                                <div class="numbertext">3 / 4</div>
+                                <img class="modal-project-screenshots"
+                                    src="./assets/images/insta-port-next-auth-google.png">
+                            </div>
+
+                            <div class="mySlides3">
+                                <div class="numbertext">4 / 4</div>
+                                <img class="modal-project-screenshots" src="./assets/images/renegade-art-login.png">
+                            </div>
+
+                            <a class="prev" onclick="plusSlidesThree(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlidesThree(1)">&#10095;</a>
+
+                            <div class="column">
+                                <img class="demo3 cursor" src="./assets/images/insta-port-card.png"
+                                    onclick="currentSlideThree(1)" alt="Some bullshit">
+
+                                <img class="demo3 cursor" src="./assets/images/instagram-port-sign-in.png"
+                                    onclick="currentSlideThree(2)" alt="More shit">
+
+                                <img class="demo3 cursor" src="./assets/images/insta-port-next-auth-google.png"
+                                    onclick="currentSlideThree(3)" alt="I am the walrus">
+
+                                <img class="demo3 cursor" src="./assets/images/renegade-art-login.png"
+                                    onclick="currentSlideThree(4)" alt="Pedros salty shriveled balls">
+                            </div>
+                            <div class="modal-text-container">
+
+                                <div class="caption-container">
+                                    <p class="caption3">
+                                    <h1>Instagram Portfolio Clone</h1>
+                                    <p>This is an Instagram Portfolio clone I did for my portfolio.</p>
+
+                                    </p>
+                                </div>
+                                <div class="role-links">
+                                    <h3>Role</h3>
+                                    <a class="project-part">Sole Developer</a>
+                                    <h3>Links</h3>
+                                    <a class="modal-links" href="https://insta-port-clone.vercel.app/"
+                                        target="_blank">Deployed
+                                        link</a>
+                                    <br>
+                                    <a class="modal-links" href="https://github.com/phillipanthony11/insta-port-clone"
+                                        target="_blank">Github
+                                        Repo</a>
+                                </div>
+                                <div class="project-tools">
+                                    <h3>Tools/Languages</h3>
+                                    <li> React</li>
+                                    <li>JavaScript</li>
+                                    <li> Next.js</li>
+                                    <li> CSS</li>
+                                    <li> Tailwind</li>
+                                    <li> Firebase v9</li>
+                                    <li> NextAuth</li>
+                                    <li> Recoil</li>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="project-container-bottom">
+                    <div class="project">
+                        <div class="tooltip">
+                            <p class="project-titles">React Bootcamp Portfolio</p>
+                            <img src="./assets/images/react-profile-card.png"
+                                alt="ugly but responsive react portfolio for coding bootcamp" id="react-modal"
+                                class="cardImageBottom" data-name="2" onclick="openModalFour();currentSlideFour(1)">
+                            <span class="tooltiptext">Want to see more from this project?</span>
+                        </div>
+
+
+                    </div>
+                    <div id="modal4" class="modal">
+
+                        <div class="modal-content">
+                            <span class="close cursor" onclick="closeModalFour()">&times;</span>
+
+                            <div class="mySlides4">
+                                <div class="numbertext">1 / 4</div>
+                                <img class="modal-project-screenshots"
+                                    src="./assets/images/react-profile-screenshot.png">
+                            </div>
+
+                            <div class="mySlides4">
+                                <div class="numbertext">2 / 4</div>
+                                <img class="modal-project-screenshots" src="./assets/images/react-profile-one.png">
+                            </div>
+
+                            <div class="mySlides4">
+                                <div class="numbertext">3 / 4</div>
+                                <img class="modal-project-screenshots" src="./assets/images/react-profile-two.png">
+                            </div>
+
+                            <div class="mySlides4">
+                                <div class="numbertext">4 / 4</div>
+                                <img class="modal-project-screenshots" src="./assets/images/react-profile-three.png">
+                            </div>
+
+                            <a class="prev" onclick="plusSlidesFour(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlidesFour(1)">&#10095;</a>
+
+                            <div class="column">
+                                <img class="demo4 cursor" src="./assets/images/react-profile-screenshot.png"
+                                    onclick="currentSlideFour(1)" alt="Some bullshit">
+
+                                <img class="demo4 cursor" src="./assets/images/react-profile-one.png"
+                                    onclick="currentSlideFour(2)" alt="More shit">
+
+                                <img class="demo4 cursor" src="./assets/images/react-profile-two.png"
+                                    onclick="currentSlideFour(3)" alt="I am the walrus">
+
+                                <img class="demo4 cursor" src="./assets/images/react-profile-three.png"
+                                    onclick="currentSlideFour(4)" alt="Pedros salty shriveled balls">
+                            </div>
+
+                            <div class="modal-text-container">
+
+                                <div class="caption-container">
+                                    <p class="caption4">
+                                    <h1>React Bootcamp Portfolio</h1>
+                                    <p>This was pretty much a fun practice profile. I had a great time making this
+                                        really ugly but workable and just used this as a chance to play around with
+                                        React. Everything works but is just styled differently from what would be
+                                        normal. More than anything this project just secured my enjoyment of front end
+                                        design.</p>
+
+                                    </p>
+                                </div>
+                                <div class="role-links">
+                                    <h3>Role</h3>
+                                    <a class="project-part">Sole Developer</a>
+                                    <h3>Links</h3>
+                                    <a class="modal-links" href="https://portfoliojuanpedro.herokuapp.com/"
+                                        target="_blank">Deployed
+                                        link</a>
+                                    <br>
+                                    <a class="modal-links" href="https://github.com/phillipanthony11/reactprofile"
+                                        target="_blank">Github
+                                        Repo</a>
+                                </div>
+                                <div class="project-tools">
+                                    <h3>Tools/Languages</h3>
+                                    <li>JavaScript</li>
+                                    <li> React</li>
+                                    <li> CSS</li>
+                                    <li> HTML</li>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                    <div class="project">
+                        <div class="tooltip">
+                            <p class="project-titles">Suya, Project 1</p>
+                            <img src="./assets/images/suya-card.png" loading="lazy"
+                                alt="food search app relative to a region or culture" id="suya-modal"
+                                class="cardImageBottom" data-name="1" onclick="openModalOne();currentSlideOne(1)">
+
+                            <span class="tooltiptext">Want to see more from this project?</span>
+                        </div>
+
+
+                    </div>
+                    <div id="modal1" class="modal">
+
+                        <div class="modal-content">
+                            <span class="close cursor" onclick="closeModalOne()">&times;</span>
+
+                            <div class="mySlides1">
+                                <div class="numbertext">1 / 4</div>
+                                <img class="modal-project-screenshots" src="./assets/images/suya-screenshot.png">
+                            </div>
+
+                            <div class="mySlides1">
+                                <div class="numbertext">2 / 4</div>
+                                <img class="modal-project-screenshots" src="./assets/images/suya-one.png">
+                            </div>
+
+                            <div class="mySlides1">
+                                <div class="numbertext">3 / 4</div>
+                                <img class="modal-project-screenshots" src="./assets/images/suya-two.png">
+                            </div>
+
+                            <div class="mySlides1">
+                                <div class="numbertext">4 / 4</div>
+                                <img class="modal-project-screenshots" src="./assets/images/suya-three.png">
+                            </div>
+
+                            <a class="prev" onclick="plusSlidesOne(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlidesOne(1)">&#10095;</a>
+
+                            <div class="column">
+                                <img class="demo1 cursor" src="./assets/images/suya-screenshot.png"
+                                    onclick="currentSlideOne(1)" alt="Some bullshit">
+
+
+                                <img class="demo1 cursor" src="./assets/images/suya-one.png"
+                                    onclick="currentSlideOne(2)" alt="More shit">
+
+                                <img class="demo1 cursor" src="./assets/images/suya-two.png"
+                                    onclick="currentSlideOne(3)" alt="I am the walrus">
+
+                                <img class="demo1 cursor" src="./assets/images/suya-three.png"
+                                    onclick="currentSlideOne(4)" alt="Pedros salty shriveled balls">
+                            </div>
+                            <div class="modal-text-container">
+
+                                <div class="caption-container">
+                                    <p class="caption1">
+                                    <h1>Suya a food search app</h1>
+                                    <p>This was the first group project that I was a part of in the fullstack bootcamp.
+                                        I
+                                        did a bit of everything on this project, lots of the design, functionality and
+                                        backend. Suya was pretty much a two person project, we lost a partner who left
+                                        the
+                                        program on the first day of the project, another partner wasn't a part of the
+                                        development. That being said me and my remaining partner were happy with what we
+                                        were able to pull off.</p>
+                                    </p>
+                                </div>
+                                <div class="role-links">
+                                    <h3>Role</h3>
+                                    <a class="project-part">Front-end design, javascript and API application</a>
+                                    <h3>Links</h3>
+                                    <a class="modal-links" href="https://bmckenzie88.github.io/suya/"
+                                        target="_blank">Deployed
+                                        link</a>
+                                    <br>
+                                    <a class="modal-links" href="https://github.com/bmckenzie88/suya"
+                                        target="_blank">Github
+                                        Repo</a>
+                                </div>
+                                <div class="project-tools">
+                                    <h3>Tools/Languages</h3>
+                                    <li>JavaScript</li>
+                                    <li> Materialize</li>
+                                    <li> CSS</li>
+                                    <li> HTML</li>
+                                    <li> Moment Js API</li>
+                                    <li>Google Maps API</li>
+
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+                    <!-- <div class="project">
+                        <div class="tooltip">
+                            <p class="project-titles">Note Taker App</p>
+                            <img src="./assets/images/note-taker-screenshot.png" alt="note taker app" id="note-modal"
+                                class="cardImageBottom" data-name="2" onclick="showModal(event)">
+                            <span class="tooltiptext">Want to see more from this project?</span>
+                        </div>
+
+
+
+                    </div> -->
+                </div>
+
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <div class="contact-container">
+
+                <div class="contact-form-top">
+                    <h2 class="contact-me-word">
+                        Contact Me
+                    </h2>
+                    <p class="fill-form-words">
+                        Fill out the form below to send me a message
+                    </p>
+                </div>
+                <div class="contact-info-container">
+                    <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                        <input type="hidden" name="access_key" value="9286e27a-b337-4a99-af5e-4ed22a899223" />
+                        <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+                        <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+                        <input type="checkbox" name="botcheck" id="" style="display: none;" />
+                        <div class="form-stuff">
+                            <label for="name" class="area-submission">Full
+                                Name</label>
+                            <input type="text" name="name" id="name" placeholder="Don Juan Pedro" required
+                                class="name-submission-stuff" />
+                        </div>
+                        <div class="form-stuff">
+                            <label for="email" class="area-submission">Email
+                                Address</label>
+                            <input type="email" name="email" id="email" placeholder="you@company.com" required
+                                class="email-submission-stuff" />
+                        </div>
+                        <div class="form-stuff">
+                            <label for="phone" class="area-submission">Phone
+                                Number</label>
+                            <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567"
+                                class="phone-submission-stuff" />
+                        </div>
+                        <div class="message-stuff">
+                            <label for="message" class="area-submission">Your
+                                Message</label>
+
+                            <textarea rows="5" name="message" id="message" placeholder="Your Message"
+                                class="message-submission-stuff" required></textarea>
+                        </div>
+                        <div class="submit-stuff">
+                            <button type="submit" class="submit-button">
+                                Send Message
+                            </button>
+                        </div>
+                        <p class="submit-button-stuff" id="result"></p>
+                    </form>
+                </div>
+                <div class="portfolio-para">I have the versatility, tenacity and willingness to learn other subjects, or
+                    ways of
+                    doing things to give my best to be an asset to whomever would like to give me a try, I'm durable,
+                    never
+                    discouraged for long and always looking forward to challenge myself further.
+                </div>
+                <div class="portfolio-area-git-resume-images" id="contact">
+                    <div class="linkedin" id="linkedin">
+                        <a href="https://linkedin.com/in/sean-anthony-556334265" target="_blank">LinkedIn</a>
+                    </div>
+                    <div class="git-link-portfolio">
+                        <a href="https://github.com/phillipanthony11" target="_blank">
+                            <img src="./assets/images/github-logo-portfolio.png" alt="github word logo"
+                                class="github-portfolio">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+
+</html>
